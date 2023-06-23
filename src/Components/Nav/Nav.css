@@ -1,0 +1,14 @@
+.outer-wrapper{
+    background-color: orange;
+    margin: 0;
+    
+}
+.inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-wrapper{
+    height: 350px;
+    width: 100%;
+}
