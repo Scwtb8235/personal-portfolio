@@ -1,6 +1,8 @@
 .outer-wrapper{
     background-color: orange;
-    margin: 0;
+    width: 250px;
+    height: 100vh;
+    text-align: center;
     
 }
 .inner-wrapper{
@@ -9,6 +11,15 @@
     justify-content: space-between;
 }
 .logo-wrapper{
-    height: 350px;
-    width: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    margin: 30px auto;
+    height: 200px
+}
+.logo-wrapper img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin: 30px 0;
 }

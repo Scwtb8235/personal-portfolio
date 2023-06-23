@@ -3,10 +3,13 @@ import "./Nav.css"
 import { FaHome, FaUser, FaImage } from "react-icons/fa/";
 import {GrMailOption} from "react-icons/gr/"
 import {ImStack} from "react-icons/im/"
+import profile from "../images/Profilepic.JPG"
 function Nav() {
 return (
   <div className="outer-wrapper container-fluid">
-    <div className="logo-wrapper">logo</div>
+    <div>
+      <img className="logo-wrapper"src={profile}alt="Profile" />
+    </div>
     <div className="inner-wrapper">
       <span>
         <FaHome /> Home
